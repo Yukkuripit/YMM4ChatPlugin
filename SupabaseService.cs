@@ -35,8 +35,8 @@ namespace YMM4ChatPlugin
         public event Action<string>? OnRoomChanged;
 
         // あなたのSupabaseプロジェクト情報に置き換えてください
-        private const string SupabaseUrl = "https://dcfpbrgatcobrkhncbkh.supabase.co";
-        private const string SupabaseKey = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRjZnBicmdhdGNvYnJraG5jYmtoIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA3MTg4NTMsImV4cCI6MjA5NjI5NDg1M30.Zj0sI7x3wlMJk8CeP3Za7sP5sgtsp7CpuA65xSuo4dQ";
+        private const string SupabaseUrl = "";
+        private const string SupabaseKey = "";
 
         public bool IsConnected => _isConnected;
         public string? CurrentRoomId => _currentRoomId;
