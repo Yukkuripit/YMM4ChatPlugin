@@ -10,7 +10,7 @@ namespace YMM4ChatPlugin
     {
         private readonly HttpClient _httpClient;
         // ★ ここにあなたの Safe Browsing API キーを設定してください ★
-        private const string ApiKey = "AIzaSyCxebeuUV0r6hB1x9xxZ0WllpdVVFqm9WQ";
+        private const string ApiKey = "";
 
         private const string SafeBrowsingUrl = "https://safebrowsing.googleapis.com/v4/threatMatches:find";
 
